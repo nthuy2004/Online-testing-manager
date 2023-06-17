@@ -1,0 +1,94 @@
+:root {
+    --modal-background: #36393F;
+    --text-color: #f6f6f7;
+    --button-color: #5D6269;
+    --input-color: #2A2D31;
+}
+.modal-dialog {
+    border: 0px !important;
+}
+.modal-dialog .modal-header {
+    background-color: var(--modal-background) !important;
+    border-bottom: 0px !important;
+    color: var(--text-color);
+}
+.modal-header .close {
+    outline: none;
+    color: var(--text-color);
+}
+.modal-dialog .modal-body {
+    background-color: var(--modal-background) !important;
+}
+.modal-dialog .modal-footer {
+    border-top: 0px !important;
+    background-color: var(--modal-background) !important;
+}
+.txt-dark, p, h1, h2, h3, h4, h5, h6, label {
+    color: var(--text-color) !important;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-radius: 3px !important;
+    background-color: var(--input-color) !important;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: var(--text-color);
+    border: 1px solid  #4e73df;
+}
+.form-control {
+    border-radius: 3px !important;
+    background-color: var(--input-color) !important;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: var(--text-color);
+}
+.form-control:disabled {
+    color: #858796;
+    cursor:not-allowed;
+}
+button.btn:focus {
+    box-shadow: none;
+}
+button.btn:active:hover {
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #5865F2 !important;
+}
+.btn-success {
+    background-color: #3BA55D !important;
+}
+.btn-dark {
+    background-color: var(--button-color) !important;
+}
+.card-bg-dark {
+    border-radius: 4px;
+    background-color:#202225;
+}
+.card {
+
+    border-style: none;
+    background-color: #202225;
+}
+.card .card-header {
+    border-bottom: 0px;
+    background-color: #202225;
+}
+.card .card-body {
+    border-radius: 1rem;
+    background-color: #202225;
+}
+.bg-dark {
+    background-color: #36393F !important; 
+}
+.nav-dark {
+    background-color: #2F3136 !important;
+}
+table {
+    color: var(--text-color) !important;
+}
+table.tb-dark th, tr, td {
+    border: 0px solid #2F3136 !important;
+}
+.bootstrap-datetimepicker-widget  {
+    background-color:#2A2D31 !important;
+    border: 0px;
+}
